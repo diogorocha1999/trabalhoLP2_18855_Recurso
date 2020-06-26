@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.18">
+  <compound refid="class_classes_1_1_program" kind="class"><name>Classes::Program</name>
+    <member refid="class_classes_1_1_program_1adebf9292370085b6788d839969e03df5" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="namespace_classes" kind="namespace"><name>Classes</name>
+  </compound>
+  <compound refid="namespace_dados" kind="namespace"><name>Dados</name>
+  </compound>
+  <compound refid="namespace_regras" kind="namespace"><name>Regras</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="dir_472977b0bce5681335a54f08a3369b41" kind="dir"><name>C:/Users/diogo/Desktop</name>
+  </compound>
+  <compound refid="dir_65eab1ebd7b7841768073a6a91c38bc0" kind="dir"><name>C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/Dgs</name>
+  </compound>
+  <compound refid="dir_e03fbcb6ffa326743ac098312b79d189" kind="dir"><name>C:/Users/diogo</name>
+  </compound>
+  <compound refid="dir_6110638a4620913aadfa474ba114dd18" kind="dir"><name>C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master</name>
+  </compound>
+  <compound refid="dir_f99c6118fb1159a2984e0bc682142d54" kind="dir"><name>C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master</name>
+  </compound>
+  <compound refid="dir_d522931ffa1371640980b621734a4381" kind="dir"><name>C:/Users</name>
+  </compound>
+</doxygenindex>

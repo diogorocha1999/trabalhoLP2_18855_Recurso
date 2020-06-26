@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_classes_1_1_obitos" kind="class" language="C#" prot="public">
+    <compoundname>Classes::Obitos</compoundname>
+    <basecompoundref refid="class_classes_1_1_pessoa" prot="public" virt="non-virtual">Classes.Pessoa</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_classes_1_1_obitos_1a7fa61a1f6e959f798693c06e2e230c35" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Causas</name>
+        <enumvalue id="class_classes_1_1_obitos_1a7fa61a1f6e959f798693c06e2e230c35aea58c37c7efc6be13b96d8d9957155d7" prot="public">
+          <name>Covid</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_classes_1_1_obitos_1a7fa61a1f6e959f798693c06e2e230c35aaeefc6c1725a705f8904397dc9e89b11" prot="public">
+          <name>Gripe</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Obito.cs" line="48" column="15" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Obito.cs" bodystart="49" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_classes_1_1_obitos_1aac3e8035589e5db542fd5ed1d9573760" prot="private" static="no" mutable="no">
+        <type><ref refid="class_classes_1_1_obitos_1a7fa61a1f6e959f798693c06e2e230c35" kindref="member">Causas</ref></type>
+        <definition>Causas Classes.Obitos.causas</definition>
+        <argsstring></argsstring>
+        <name>causas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Obito.cs" line="19" column="16" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Obito.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_classes_1_1_obitos_1a4893dea0579a17c30d60536ec129bd08" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_classes_1_1_obitos_1a7fa61a1f6e959f798693c06e2e230c35" kindref="member">Causas</ref></type>
+        <definition>Causas Classes.Obitos.Causa</definition>
+        <argsstring></argsstring>
+        <name>Causa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Obito.cs" line="40" column="23" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Obito.cs" bodystart="41" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_classes_1_1_obitos_1a430e1320aded49ea9fc4110d7cda1e66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Classes.Obitos.Obitos</definition>
+        <argsstring>()</argsstring>
+        <name>Obitos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Obito.cs" line="23" column="16" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Obito.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_classes_1_1_obitos_1acd0cb0076ce93479501b829e7b696fde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Classes.Obitos.Obitos</definition>
+        <argsstring>(string nNome, string rRegiao, int iIdade, string gGenero, Causas cCausa)</argsstring>
+        <name>Obitos</name>
+        <param>
+          <type>string</type>
+          <declname>nNome</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>rRegiao</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iIdade</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>gGenero</declname>
+        </param>
+        <param>
+          <type><ref refid="class_classes_1_1_obitos_1a7fa61a1f6e959f798693c06e2e230c35" kindref="member">Causas</ref></type>
+          <declname>cCausa</declname>
+        </param>
+        <briefdescription>
+<para>Construtor com dados do exterior </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rRegiao</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>iIdade</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gGenero</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cMorte</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Obito.cs" line="35" column="16" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Obito.cs" bodystart="35" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe Obitos.Define um obito </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Pessoa</label>
+        <link refid="class_classes_1_1_pessoa"/>
+      </node>
+      <node id="1">
+        <label>Classes.Obitos</label>
+        <link refid="class_classes_1_1_obitos"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Pessoa</label>
+        <link refid="class_classes_1_1_pessoa"/>
+      </node>
+      <node id="1">
+        <label>Classes.Obitos</label>
+        <link refid="class_classes_1_1_obitos"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Obito.cs" line="16" column="11" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Obito.cs" bodystart="17" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_classes_1_1_obitos_1a4893dea0579a17c30d60536ec129bd08" prot="public" virt="non-virtual"><scope>Classes::Obitos</scope><name>Causa</name></member>
+      <member refid="class_classes_1_1_obitos_1aac3e8035589e5db542fd5ed1d9573760" prot="private" virt="non-virtual"><scope>Classes::Obitos</scope><name>causas</name></member>
+      <member refid="class_classes_1_1_obitos_1a7fa61a1f6e959f798693c06e2e230c35" prot="public" virt="non-virtual"><scope>Classes::Obitos</scope><name>Causas</name></member>
+      <member refid="class_classes_1_1_pessoa_1a09462818b2113e43ea707dc59debeece" prot="public" virt="non-virtual"><scope>Classes::Obitos</scope><name>Genero</name></member>
+      <member refid="class_classes_1_1_pessoa_1a0d67edbe093034866dc5e13968c68745" prot="protected" virt="non-virtual"><scope>Classes::Obitos</scope><name>genero</name></member>
+      <member refid="class_classes_1_1_pessoa_1a788f3f6afbc4be8139b4aa567fb4c66a" prot="public" virt="non-virtual"><scope>Classes::Obitos</scope><name>Idades</name></member>
+      <member refid="class_classes_1_1_pessoa_1afa48fd413599e365d109c5604dd6acc9" prot="protected" virt="non-virtual"><scope>Classes::Obitos</scope><name>idades</name></member>
+      <member refid="class_classes_1_1_pessoa_1afd45a805503cba85a7136f40a2be4613" prot="public" virt="non-virtual"><scope>Classes::Obitos</scope><name>Nome</name></member>
+      <member refid="class_classes_1_1_pessoa_1ae5b2f867267f034a4cd09cb8ab13be35" prot="protected" virt="non-virtual"><scope>Classes::Obitos</scope><name>nome</name></member>
+      <member refid="class_classes_1_1_obitos_1a430e1320aded49ea9fc4110d7cda1e66" prot="public" virt="non-virtual"><scope>Classes::Obitos</scope><name>Obitos</name></member>
+      <member refid="class_classes_1_1_obitos_1acd0cb0076ce93479501b829e7b696fde" prot="public" virt="non-virtual"><scope>Classes::Obitos</scope><name>Obitos</name></member>
+      <member refid="class_classes_1_1_pessoa_1a173f1c530aa7992041f7f3999813403a" prot="public" virt="non-virtual"><scope>Classes::Obitos</scope><name>Pessoa</name></member>
+      <member refid="class_classes_1_1_pessoa_1a3f70593f248a39ea79692c90b605c0f9" prot="public" virt="non-virtual"><scope>Classes::Obitos</scope><name>Pessoa</name></member>
+      <member refid="class_classes_1_1_pessoa_1a2b3e90f6bcf96abb37968c2d4975208e" prot="public" virt="non-virtual"><scope>Classes::Obitos</scope><name>Regiao</name></member>
+      <member refid="class_classes_1_1_pessoa_1abcb58ef447c08d0bfd8a1fb33c22041f" prot="protected" virt="non-virtual"><scope>Classes::Obitos</scope><name>regiao</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

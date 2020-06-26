@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.18">
+  <compound refid="class_regras_1_1_validar" kind="class"><name>Regras::Validar</name>
+    <member refid="class_regras_1_1_validar_1a20a56654e1e87eaa8ea409ead1f2bd32" kind="function"><name>InsertNewCase</name></member>
+    <member refid="class_regras_1_1_validar_1a05bce8a2ad13ecf7ee2367db030c3bf7" kind="function"><name>InsertNewRecover</name></member>
+  </compound>
+  <compound refid="namespace_classes" kind="namespace"><name>Classes</name>
+  </compound>
+  <compound refid="namespace_dados" kind="namespace"><name>Dados</name>
+  </compound>
+  <compound refid="namespace_regras" kind="namespace"><name>Regras</name>
+  </compound>
+  <compound refid="_validar_8cs" kind="file"><name>Validar.cs</name>
+  </compound>
+  <compound refid="dir_472977b0bce5681335a54f08a3369b41" kind="dir"><name>C:/Users/diogo/Desktop</name>
+  </compound>
+  <compound refid="dir_afd8d62ba7e2d6a0e3c1a5265c3288c7" kind="dir"><name>C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2</name>
+  </compound>
+  <compound refid="dir_e03fbcb6ffa326743ac098312b79d189" kind="dir"><name>C:/Users/diogo</name>
+  </compound>
+  <compound refid="dir_d84170a47492315f52efbd3e5fc0c989" kind="dir"><name>C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Regras</name>
+  </compound>
+  <compound refid="dir_6110638a4620913aadfa474ba114dd18" kind="dir"><name>C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master</name>
+  </compound>
+  <compound refid="dir_f99c6118fb1159a2984e0bc682142d54" kind="dir"><name>C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master</name>
+  </compound>
+  <compound refid="dir_d522931ffa1371640980b621734a4381" kind="dir"><name>C:/Users</name>
+  </compound>
+</doxygenindex>

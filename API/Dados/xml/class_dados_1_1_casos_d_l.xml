@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_dados_1_1_casos_d_l" kind="class" language="C#" prot="public">
+    <compoundname>Dados::CasosDL</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_dados_1_1_casos_d_l_1a96ef5de83174707392cfca49078b152f" prot="private" static="yes" mutable="no">
+        <type>List&lt; Caso &gt;</type>
+        <definition>List&lt;Caso&gt; Dados.CasosDL.allCases</definition>
+        <argsstring></argsstring>
+        <name>allCases</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/CasosDL.cs" line="25" column="21" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/CasosDL.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_dados_1_1_casos_d_l_1a79a224ba2a4e2a63551bd4ce2a1d0c8c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Dados.CasosDL.CasosDL</definition>
+        <argsstring>()</argsstring>
+        <name>CasosDL</name>
+        <briefdescription>
+<para>Construtor cases </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/CasosDL.cs" line="34" column="16" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/CasosDL.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_dados_1_1_casos_d_l_1a9e01f64e5410f12940c6a1dd3a7dcc57" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; Caso &gt;</type>
+        <definition>static List&lt;Caso&gt; Dados.CasosDL.GetAllCases</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllCases</name>
+        <briefdescription>
+<para>Retorna todos os dados inseridos na lista Caso. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/CasosDL.cs" line="45" column="28" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/CasosDL.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_casos_d_l_1a43ca44de9dba555656aff0948aa89a33" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Dados.CasosDL.ConsultaRegiao</definition>
+        <argsstring>(string pRegiao)</argsstring>
+        <name>ConsultaRegiao</name>
+        <param>
+          <type>string</type>
+          <declname>pRegiao</declname>
+        </param>
+        <briefdescription>
+<para>Consulta casos por região e conta o numero de casos para essa região. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>casos</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pRegiao</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/CasosDL.cs" line="56" column="27" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/CasosDL.cs" bodystart="56" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_casos_d_l_1ab2e6e7a4a562af8fc2b28767104b8f1d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Dados.CasosDL.ContaRisco</definition>
+        <argsstring>(string semRisco)</argsstring>
+        <name>ContaRisco</name>
+        <param>
+          <type>string</type>
+          <declname>semRisco</declname>
+        </param>
+        <briefdescription>
+<para>Conta o numero de casos com risco </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>casos</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>semRisco</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/CasosDL.cs" line="84" column="27" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/CasosDL.cs" bodystart="84" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_casos_d_l_1a9a8955a52e5c14872d89120aa64e3dbb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Dados.CasosDL.MaiorIdade</definition>
+        <argsstring>()</argsstring>
+        <name>MaiorIdade</name>
+        <briefdescription>
+<para>Indica a maior idade infetada </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>casos</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/CasosDL.cs" line="110" column="27" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/CasosDL.cs" bodystart="110" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_casos_d_l_1aaa490138275456b8de33b7d310a213f4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Dados.CasosDL.MediaIdades</definition>
+        <argsstring>()</argsstring>
+        <name>MediaIdades</name>
+        <briefdescription>
+<para>Faz a média de idades dos casos registados. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>casos</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/CasosDL.cs" line="135" column="27" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/CasosDL.cs" bodystart="135" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_casos_d_l_1a4162f062a214b6cf67011b652843ec7a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.CasosDL.InsertCase</definition>
+        <argsstring>(Caso c)</argsstring>
+        <name>InsertCase</name>
+        <param>
+          <type>Caso</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>Insere uma pessoa(caso), caso os parametros sejam verdade. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/CasosDL.cs" line="153" column="28" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/CasosDL.cs" bodystart="153" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_casos_d_l_1a8ef2cd968afd58dbdc5556e0704a8f3c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.CasosDL.SaveCaso</definition>
+        <argsstring>(string filename)</argsstring>
+        <name>SaveCaso</name>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+<para>Grava os dados inseridos em ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>casos</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/CasosDL.cs" line="169" column="28" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/CasosDL.cs" bodystart="169" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_casos_d_l_1a205839bfef81071eed9b852d774aaf61" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.CasosDL.LoadCasos</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>LoadCasos</name>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+<para>Carrega o ficheiro com os dados foram gravados. NÃO CONSEGUI IMPLEMENTAR!!! </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>casos</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/CasosDL.cs" line="196" column="28" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/CasosDL.cs" bodystart="196" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_casos_d_l_1ac05330a7b8e0dd3b827d9d4c17b77793" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string Dados.CasosDL.FormataDados</definition>
+        <argsstring>()</argsstring>
+        <name>FormataDados</name>
+        <briefdescription>
+<para>Le os dados guardados do ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>casos</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/CasosDL.cs" line="222" column="30" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/CasosDL.cs" bodystart="222" bodyend="234"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe CasosDL.Trabalha com os dados da classe Caso </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/CasosDL.cs" line="21" column="11" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/CasosDL.cs" bodystart="22" bodyend="238"/>
+    <listofallmembers>
+      <member refid="class_dados_1_1_casos_d_l_1a96ef5de83174707392cfca49078b152f" prot="private" virt="non-virtual"><scope>Dados::CasosDL</scope><name>allCases</name></member>
+      <member refid="class_dados_1_1_casos_d_l_1a79a224ba2a4e2a63551bd4ce2a1d0c8c" prot="private" virt="non-virtual"><scope>Dados::CasosDL</scope><name>CasosDL</name></member>
+      <member refid="class_dados_1_1_casos_d_l_1a43ca44de9dba555656aff0948aa89a33" prot="public" virt="non-virtual"><scope>Dados::CasosDL</scope><name>ConsultaRegiao</name></member>
+      <member refid="class_dados_1_1_casos_d_l_1ab2e6e7a4a562af8fc2b28767104b8f1d" prot="public" virt="non-virtual"><scope>Dados::CasosDL</scope><name>ContaRisco</name></member>
+      <member refid="class_dados_1_1_casos_d_l_1ac05330a7b8e0dd3b827d9d4c17b77793" prot="public" virt="non-virtual"><scope>Dados::CasosDL</scope><name>FormataDados</name></member>
+      <member refid="class_dados_1_1_casos_d_l_1a9e01f64e5410f12940c6a1dd3a7dcc57" prot="public" virt="non-virtual"><scope>Dados::CasosDL</scope><name>GetAllCases</name></member>
+      <member refid="class_dados_1_1_casos_d_l_1a4162f062a214b6cf67011b652843ec7a" prot="public" virt="non-virtual"><scope>Dados::CasosDL</scope><name>InsertCase</name></member>
+      <member refid="class_dados_1_1_casos_d_l_1a205839bfef81071eed9b852d774aaf61" prot="public" virt="non-virtual"><scope>Dados::CasosDL</scope><name>LoadCasos</name></member>
+      <member refid="class_dados_1_1_casos_d_l_1a9a8955a52e5c14872d89120aa64e3dbb" prot="public" virt="non-virtual"><scope>Dados::CasosDL</scope><name>MaiorIdade</name></member>
+      <member refid="class_dados_1_1_casos_d_l_1aaa490138275456b8de33b7d310a213f4" prot="public" virt="non-virtual"><scope>Dados::CasosDL</scope><name>MediaIdades</name></member>
+      <member refid="class_dados_1_1_casos_d_l_1a8ef2cd968afd58dbdc5556e0704a8f3c" prot="public" virt="non-virtual"><scope>Dados::CasosDL</scope><name>SaveCaso</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

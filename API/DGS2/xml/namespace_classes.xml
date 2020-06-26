@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespace_classes" kind="namespace" language="C#">
+    <compoundname>Classes</compoundname>
+    <innerclass refid="class_classes_1_1_program" prot="public">Classes::Program</innerclass>
+    <briefdescription>
+<para>Mainspace do programa. Neste espaço, a classe principal(Program), é que irá chamar e executar todos os métodos. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/Dgs/Program.cs" line="18" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.18">
+  <compound refid="class_classes_1_1_caso" kind="class"><name>Classes::Caso</name>
+    <member refid="class_classes_1_1_caso_1ae0c969c1f543a98dad80d75041f1cf1d" kind="variable"><name>doenteRisco</name></member>
+    <member refid="class_classes_1_1_caso_1ae1ac57b5dc31e297563110fc146af263" kind="property"><name>DDoenteRisco</name></member>
+    <member refid="class_classes_1_1_caso_1a0e06de8cf641655cf379824fefb416f3" kind="function"><name>Caso</name></member>
+    <member refid="class_classes_1_1_caso_1aaeacf54eb04c74e8c65e277715877fa8" kind="function"><name>Caso</name></member>
+  </compound>
+  <compound refid="class_classes_1_1_obitos" kind="class"><name>Classes::Obitos</name>
+    <member refid="class_classes_1_1_obitos_1a7fa61a1f6e959f798693c06e2e230c35" kind="enum"><name>Causas</name></member>
+    <member refid="class_classes_1_1_obitos_1a7fa61a1f6e959f798693c06e2e230c35aea58c37c7efc6be13b96d8d9957155d7" kind="enumvalue"><name>Covid</name></member>
+    <member refid="class_classes_1_1_obitos_1a7fa61a1f6e959f798693c06e2e230c35aaeefc6c1725a705f8904397dc9e89b11" kind="enumvalue"><name>Gripe</name></member>
+    <member refid="class_classes_1_1_obitos_1aac3e8035589e5db542fd5ed1d9573760" kind="variable"><name>causas</name></member>
+    <member refid="class_classes_1_1_obitos_1a4893dea0579a17c30d60536ec129bd08" kind="property"><name>Causa</name></member>
+    <member refid="class_classes_1_1_obitos_1a430e1320aded49ea9fc4110d7cda1e66" kind="function"><name>Obitos</name></member>
+    <member refid="class_classes_1_1_obitos_1acd0cb0076ce93479501b829e7b696fde" kind="function"><name>Obitos</name></member>
+  </compound>
+  <compound refid="class_classes_1_1_pessoa" kind="class"><name>Classes::Pessoa</name>
+    <member refid="class_classes_1_1_pessoa_1abcb58ef447c08d0bfd8a1fb33c22041f" kind="variable"><name>regiao</name></member>
+    <member refid="class_classes_1_1_pessoa_1afa48fd413599e365d109c5604dd6acc9" kind="variable"><name>idades</name></member>
+    <member refid="class_classes_1_1_pessoa_1a0d67edbe093034866dc5e13968c68745" kind="variable"><name>genero</name></member>
+    <member refid="class_classes_1_1_pessoa_1ae5b2f867267f034a4cd09cb8ab13be35" kind="variable"><name>nome</name></member>
+    <member refid="class_classes_1_1_pessoa_1afd45a805503cba85a7136f40a2be4613" kind="property"><name>Nome</name></member>
+    <member refid="class_classes_1_1_pessoa_1a2b3e90f6bcf96abb37968c2d4975208e" kind="property"><name>Regiao</name></member>
+    <member refid="class_classes_1_1_pessoa_1a788f3f6afbc4be8139b4aa567fb4c66a" kind="property"><name>Idades</name></member>
+    <member refid="class_classes_1_1_pessoa_1a09462818b2113e43ea707dc59debeece" kind="property"><name>Genero</name></member>
+    <member refid="class_classes_1_1_pessoa_1a173f1c530aa7992041f7f3999813403a" kind="function"><name>Pessoa</name></member>
+    <member refid="class_classes_1_1_pessoa_1a3f70593f248a39ea79692c90b605c0f9" kind="function"><name>Pessoa</name></member>
+  </compound>
+  <compound refid="class_classes_1_1_recuperados" kind="class"><name>Classes::Recuperados</name>
+    <member refid="class_classes_1_1_recuperados_1a94d0fb4944c0c48a1c948708f647c9ad" kind="variable"><name>recuperado</name></member>
+    <member refid="class_classes_1_1_recuperados_1a686ccbcc8eb0a4ff910ece880d2f4129" kind="property"><name>Recuperado</name></member>
+    <member refid="class_classes_1_1_recuperados_1af75f033a132d71d8e937845c71e42378" kind="function"><name>Recuperados</name></member>
+    <member refid="class_classes_1_1_recuperados_1aed282ab0861acccd47ef47998dfec118" kind="function"><name>Recuperados</name></member>
+    <member refid="class_classes_1_1_recuperados_1a7e04beda1c75642b05968f26bf181394" kind="function"><name>ContaNaoRecuperados</name></member>
+    <member refid="class_classes_1_1_recuperados_1a9a58e24329c135b8fe0efe9c43a049bc" kind="function"><name>ContaRecuperados</name></member>
+    <member refid="class_classes_1_1_recuperados_1afd5d5293c1373ae465ca14b16dd7f680" kind="function"><name>SaveCaso</name></member>
+    <member refid="class_classes_1_1_recuperados_1add55219eda604e371d6d5d4a739be695" kind="function"><name>LoadRecuperados</name></member>
+    <member refid="class_classes_1_1_recuperados_1a0b56606fe276782c4e14cfbcb454c2d0" kind="function"><name>LeFicheiro</name></member>
+  </compound>
+  <compound refid="namespace_classes" kind="namespace"><name>Classes</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_binary" kind="namespace"><name>System::Runtime::Serialization::Formatters::Binary</name>
+  </compound>
+  <compound refid="_caso_8cs" kind="file"><name>Caso.cs</name>
+  </compound>
+  <compound refid="_obito_8cs" kind="file"><name>Obito.cs</name>
+  </compound>
+  <compound refid="_pessoa_8cs" kind="file"><name>Pessoa.cs</name>
+  </compound>
+  <compound refid="_recuperado_8cs" kind="file"><name>Recuperado.cs</name>
+  </compound>
+  <compound refid="dir_472977b0bce5681335a54f08a3369b41" kind="dir"><name>C:/Users/diogo/Desktop</name>
+  </compound>
+  <compound refid="dir_afd8d62ba7e2d6a0e3c1a5265c3288c7" kind="dir"><name>C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2</name>
+  </compound>
+  <compound refid="dir_723289428492a36124c7dc76b1324597" kind="dir"><name>C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes</name>
+  </compound>
+  <compound refid="dir_e03fbcb6ffa326743ac098312b79d189" kind="dir"><name>C:/Users/diogo</name>
+  </compound>
+  <compound refid="dir_6110638a4620913aadfa474ba114dd18" kind="dir"><name>C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master</name>
+  </compound>
+  <compound refid="dir_f99c6118fb1159a2984e0bc682142d54" kind="dir"><name>C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master</name>
+  </compound>
+  <compound refid="dir_d522931ffa1371640980b621734a4381" kind="dir"><name>C:/Users</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,186 @@
+.TH "Classes.Recuperados" 3 "Fri Jun 26 2020" "BusinessObject" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Classes.Recuperados \- Classe Recuperados\&.Define um recuperado  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBClasses\&.Pessoa\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBRecuperados\fP ()"
+.br
+.ti -1c
+.RI "\fBRecuperados\fP (string nNome, string rRegiao, int iIdade, string gGenero, string rRecuperado)"
+.br
+.RI "Construtor com dados do exterior "
+.ti -1c
+.RI "int \fBContaNaoRecuperados\fP (List< \fBRecuperados\fP > recuperados, string mau)"
+.br
+.RI "Conta o numero de pessoas nao recuperadas\&. "
+.ti -1c
+.RI "int \fBContaRecuperados\fP (List< \fBRecuperados\fP > recuperados, string bom)"
+.br
+.RI "Conta o numero de pessoas recuperadas "
+.in -1c
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBSaveCaso\fP (List< \fBRecuperados\fP > casos, string filename)"
+.br
+.RI "Grava os dados inseridos em ficheiro\&. "
+.ti -1c
+.RI "static bool \fBLoadRecuperados\fP (List< \fBRecuperados\fP > casos, string fileName)"
+.br
+.RI "Carrega o ficheiro com os dados foram gravados\&. NÃO CONSEGUI IMPLEMENTAR!!! "
+.ti -1c
+.RI "static string \fBLeFicheiro\fP (List< \fBRecuperados\fP > casos)"
+.br
+.RI "Le os dados guardados do ficheiro\&. "
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "string \fBrecuperado\fP"
+.br
+.in -1c
+.SS "Properties"
+
+.in +1c
+.ti -1c
+.RI "string \fBRecuperado\fP\fC [get, set]\fP"
+.br
+.RI "Manipula atributo recuperado "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Classe Recuperados\&.Define um recuperado 
+
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Classes\&.Recuperados\&.Recuperados ()"
+
+.SS "Classes\&.Recuperados\&.Recuperados (string nNome, string rRegiao, int iIdade, string gGenero, string rRecuperado)"
+
+.PP
+Construtor com dados do exterior 
+.PP
+\fBParameters\fP
+.RS 4
+\fIrRegiao\fP 
+.br
+\fIiIdade\fP 
+.br
+\fIgGenero\fP 
+.br
+\fIrRecuperado\fP 
+.RE
+.PP
+
+.SH "Member Function Documentation"
+.PP 
+.SS "int Classes\&.Recuperados\&.ContaNaoRecuperados (List< \fBRecuperados\fP > recuperados, string mau)"
+
+.PP
+Conta o numero de pessoas nao recuperadas\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIrecuperados\fP 
+.br
+\fImau\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.SS "int Classes\&.Recuperados\&.ContaRecuperados (List< \fBRecuperados\fP > recuperados, string bom)"
+
+.PP
+Conta o numero de pessoas recuperadas 
+.PP
+\fBParameters\fP
+.RS 4
+\fIrecuperados\fP 
+.br
+\fIbom\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.SS "static string Classes\&.Recuperados\&.LeFicheiro (List< \fBRecuperados\fP > casos)\fC [static]\fP"
+
+.PP
+Le os dados guardados do ficheiro\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcasos\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.SS "static bool Classes\&.Recuperados\&.LoadRecuperados (List< \fBRecuperados\fP > casos, string fileName)\fC [static]\fP"
+
+.PP
+Carrega o ficheiro com os dados foram gravados\&. NÃO CONSEGUI IMPLEMENTAR!!! 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcasos\fP 
+.br
+\fIfileName\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.SS "static bool Classes\&.Recuperados\&.SaveCaso (List< \fBRecuperados\fP > casos, string filename)\fC [static]\fP"
+
+.PP
+Grava os dados inseridos em ficheiro\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcasos\fP 
+.br
+\fIfilename\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.SH "Member Data Documentation"
+.PP 
+.SS "string Classes\&.Recuperados\&.recuperado\fC [protected]\fP"
+
+.SH "Property Documentation"
+.PP 
+.SS "string Classes\&.Recuperados\&.Recuperado\fC [get]\fP, \fC [set]\fP"
+
+.PP
+Manipula atributo recuperado 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for BusinessObject from the source code\&.

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.18">
+  <compound refid="class_dados_1_1_casos_d_l" kind="class"><name>Dados::CasosDL</name>
+    <member refid="class_dados_1_1_casos_d_l_1a96ef5de83174707392cfca49078b152f" kind="variable"><name>allCases</name></member>
+    <member refid="class_dados_1_1_casos_d_l_1a79a224ba2a4e2a63551bd4ce2a1d0c8c" kind="function"><name>CasosDL</name></member>
+    <member refid="class_dados_1_1_casos_d_l_1a9e01f64e5410f12940c6a1dd3a7dcc57" kind="function"><name>GetAllCases</name></member>
+    <member refid="class_dados_1_1_casos_d_l_1a43ca44de9dba555656aff0948aa89a33" kind="function"><name>ConsultaRegiao</name></member>
+    <member refid="class_dados_1_1_casos_d_l_1ab2e6e7a4a562af8fc2b28767104b8f1d" kind="function"><name>ContaRisco</name></member>
+    <member refid="class_dados_1_1_casos_d_l_1a9a8955a52e5c14872d89120aa64e3dbb" kind="function"><name>MaiorIdade</name></member>
+    <member refid="class_dados_1_1_casos_d_l_1aaa490138275456b8de33b7d310a213f4" kind="function"><name>MediaIdades</name></member>
+    <member refid="class_dados_1_1_casos_d_l_1a4162f062a214b6cf67011b652843ec7a" kind="function"><name>InsertCase</name></member>
+    <member refid="class_dados_1_1_casos_d_l_1a8ef2cd968afd58dbdc5556e0704a8f3c" kind="function"><name>SaveCaso</name></member>
+    <member refid="class_dados_1_1_casos_d_l_1a205839bfef81071eed9b852d774aaf61" kind="function"><name>LoadCasos</name></member>
+    <member refid="class_dados_1_1_casos_d_l_1ac05330a7b8e0dd3b827d9d4c17b77793" kind="function"><name>FormataDados</name></member>
+  </compound>
+  <compound refid="class_dados_1_1_recuperados_d_l" kind="class"><name>Dados::RecuperadosDL</name>
+    <member refid="class_dados_1_1_recuperados_d_l_1a916814c9408a33ce4a2ac793b179702c" kind="variable"><name>doentesRecuperados</name></member>
+    <member refid="class_dados_1_1_recuperados_d_l_1aacc6582dab5e31ce34d5c1c549ce9d38" kind="function"><name>RecuperadosDL</name></member>
+    <member refid="class_dados_1_1_recuperados_d_l_1a993228959b645be8e1201533b6708026" kind="function"><name>InsertRecover</name></member>
+    <member refid="class_dados_1_1_recuperados_d_l_1a1cd1b9753a810c5f6b653e387ebea822" kind="function"><name>GetAllRecovers</name></member>
+    <member refid="class_dados_1_1_recuperados_d_l_1a3bc0680b8e630b5acd728695cf473a27" kind="function"><name>ContaNaoRecuperados</name></member>
+    <member refid="class_dados_1_1_recuperados_d_l_1a613b9af62db51b61ec7ed3f215092e5b" kind="function"><name>ContaRecuperados</name></member>
+    <member refid="class_dados_1_1_recuperados_d_l_1ac63b24c2a0c106143d4d319175dc6735" kind="function"><name>SaveCaso</name></member>
+    <member refid="class_dados_1_1_recuperados_d_l_1aad846067e6154aa3373c9cf889d3a2d8" kind="function"><name>LoadRecuperados</name></member>
+    <member refid="class_dados_1_1_recuperados_d_l_1afee585ed179580e7aa62d8cfd1e77a7b" kind="function"><name>FormataDadosR</name></member>
+  </compound>
+  <compound refid="namespace_classes" kind="namespace"><name>Classes</name>
+  </compound>
+  <compound refid="namespace_dados" kind="namespace"><name>Dados</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_serialization_1_1_formatters_1_1_binary" kind="namespace"><name>System::Runtime::Serialization::Formatters::Binary</name>
+  </compound>
+  <compound refid="_casos_d_l_8cs" kind="file"><name>CasosDL.cs</name>
+  </compound>
+  <compound refid="_recuperados_d_l_8cs" kind="file"><name>RecuperadosDL.cs</name>
+  </compound>
+  <compound refid="dir_230ba56eee125166da12d6888bac6382" kind="dir"><name>C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados</name>
+  </compound>
+  <compound refid="dir_472977b0bce5681335a54f08a3369b41" kind="dir"><name>C:/Users/diogo/Desktop</name>
+  </compound>
+  <compound refid="dir_afd8d62ba7e2d6a0e3c1a5265c3288c7" kind="dir"><name>C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2</name>
+  </compound>
+  <compound refid="dir_e03fbcb6ffa326743ac098312b79d189" kind="dir"><name>C:/Users/diogo</name>
+  </compound>
+  <compound refid="dir_6110638a4620913aadfa474ba114dd18" kind="dir"><name>C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master</name>
+  </compound>
+  <compound refid="dir_f99c6118fb1159a2984e0bc682142d54" kind="dir"><name>C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master</name>
+  </compound>
+  <compound refid="dir_d522931ffa1371640980b621734a4381" kind="dir"><name>C:/Users</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="namespace_regras" kind="namespace" language="C#">
+    <compoundname>Regras</compoundname>
+    <innerclass refid="class_regras_1_1_validar" prot="public">Regras::Validar</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Regras/Validar.cs" line="13" column="1"/>
+  </compounddef>
+</doxygen>

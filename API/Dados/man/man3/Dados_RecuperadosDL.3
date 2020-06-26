@@ -1,0 +1,161 @@
+.TH "Dados.RecuperadosDL" 3 "Fri Jun 26 2020" "Dados" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Dados.RecuperadosDL \- Classe RecuperadosDL\&.Trabalha com os dados da classe Recuperado\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static bool \fBInsertRecover\fP (Recuperados x)"
+.br
+.RI "Insere um recuperado caso seja verdade\&. "
+.ti -1c
+.RI "static List< Recuperados > \fBGetAllRecovers\fP ()"
+.br
+.RI "Retorna os dados inseridos na lista de recuperados "
+.ti -1c
+.RI "static int \fBContaNaoRecuperados\fP (string mau)"
+.br
+.RI "Conta o numero de pessoas nao recuperadas\&. "
+.ti -1c
+.RI "static int \fBContaRecuperados\fP (string bom)"
+.br
+.RI "Conta o numero de pessoas recuperadas "
+.ti -1c
+.RI "static bool \fBSaveCaso\fP (string filename)"
+.br
+.RI "Grava os dados inseridos em ficheiro\&. "
+.ti -1c
+.RI "static bool \fBLoadRecuperados\fP (string fileName)"
+.br
+.RI "Carrega o ficheiro com os dados foram gravados\&. NÃO CONSEGUI IMPLEMENTAR!!! "
+.ti -1c
+.RI "static string \fBFormataDadosR\fP ()"
+.br
+.RI "Le os dados guardados do ficheiro\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Classe RecuperadosDL\&.Trabalha com os dados da classe Recuperado\&. 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static int Dados\&.RecuperadosDL\&.ContaNaoRecuperados (string mau)\fC [static]\fP"
+
+.PP
+Conta o numero de pessoas nao recuperadas\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIrecuperados\fP 
+.br
+\fImau\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.SS "static int Dados\&.RecuperadosDL\&.ContaRecuperados (string bom)\fC [static]\fP"
+
+.PP
+Conta o numero de pessoas recuperadas 
+.PP
+\fBParameters\fP
+.RS 4
+\fIrecuperados\fP 
+.br
+\fIbom\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.SS "static string Dados\&.RecuperadosDL\&.FormataDadosR ()\fC [static]\fP"
+
+.PP
+Le os dados guardados do ficheiro\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcasos\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.SS "static List<Recuperados> Dados\&.RecuperadosDL\&.GetAllRecovers ()\fC [static]\fP"
+
+.PP
+Retorna os dados inseridos na lista de recuperados 
+.PP
+\fBReturns\fP
+.RS 4
+
+.RE
+.PP
+
+.SS "static bool Dados\&.RecuperadosDL\&.InsertRecover (Recuperados x)\fC [static]\fP"
+
+.PP
+Insere um recuperado caso seja verdade\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIx\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.SS "static bool Dados\&.RecuperadosDL\&.LoadRecuperados (string fileName)\fC [static]\fP"
+
+.PP
+Carrega o ficheiro com os dados foram gravados\&. NÃO CONSEGUI IMPLEMENTAR!!! 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcasos\fP 
+.br
+\fIfileName\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.SS "static bool Dados\&.RecuperadosDL\&.SaveCaso (string filename)\fC [static]\fP"
+
+.PP
+Grava os dados inseridos em ficheiro\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcasos\fP 
+.br
+\fIfilename\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Dados from the source code\&.

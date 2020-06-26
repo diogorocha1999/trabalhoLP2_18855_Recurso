@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_classes_1_1_recuperados" kind="class" language="C#" prot="public">
+    <compoundname>Classes::Recuperados</compoundname>
+    <basecompoundref refid="class_classes_1_1_pessoa" prot="public" virt="non-virtual">Classes.Pessoa</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_classes_1_1_recuperados_1a94d0fb4944c0c48a1c948708f647c9ad" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Classes.Recuperados.recuperado</definition>
+        <argsstring></argsstring>
+        <name>recuperado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Recuperado.cs" line="25" column="26" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Recuperado.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_classes_1_1_recuperados_1a686ccbcc8eb0a4ff910ece880d2f4129" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Classes.Recuperados.Recuperado</definition>
+        <argsstring></argsstring>
+        <name>Recuperado</name>
+        <briefdescription>
+<para>Manipula atributo recuperado </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Recuperado.cs" line="51" column="23" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Recuperado.cs" bodystart="52" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_classes_1_1_recuperados_1af75f033a132d71d8e937845c71e42378" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Classes.Recuperados.Recuperados</definition>
+        <argsstring>()</argsstring>
+        <name>Recuperados</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Recuperado.cs" line="29" column="16" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Recuperado.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_classes_1_1_recuperados_1aed282ab0861acccd47ef47998dfec118" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Classes.Recuperados.Recuperados</definition>
+        <argsstring>(string nNome, string rRegiao, int iIdade, string gGenero, string rRecuperado)</argsstring>
+        <name>Recuperados</name>
+        <param>
+          <type>string</type>
+          <declname>nNome</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>rRegiao</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iIdade</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>gGenero</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>rRecuperado</declname>
+        </param>
+        <briefdescription>
+<para>Construtor com dados do exterior </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rRegiao</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>iIdade</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gGenero</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rRecuperado</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Recuperado.cs" line="41" column="16" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Recuperado.cs" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_classes_1_1_recuperados_1a7e04beda1c75642b05968f26bf181394" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Classes.Recuperados.ContaNaoRecuperados</definition>
+        <argsstring>(List&lt; Recuperados &gt; recuperados, string mau)</argsstring>
+        <name>ContaNaoRecuperados</name>
+        <param>
+          <type>List&lt; <ref refid="class_classes_1_1_recuperados" kindref="compound">Recuperados</ref> &gt;</type>
+          <declname>recuperados</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>mau</declname>
+        </param>
+        <briefdescription>
+<para>Conta o numero de pessoas nao recuperadas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recuperados</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mau</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Recuperado.cs" line="78" column="20" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Recuperado.cs" bodystart="78" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_classes_1_1_recuperados_1a9a58e24329c135b8fe0efe9c43a049bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Classes.Recuperados.ContaRecuperados</definition>
+        <argsstring>(List&lt; Recuperados &gt; recuperados, string bom)</argsstring>
+        <name>ContaRecuperados</name>
+        <param>
+          <type>List&lt; <ref refid="class_classes_1_1_recuperados" kindref="compound">Recuperados</ref> &gt;</type>
+          <declname>recuperados</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>bom</declname>
+        </param>
+        <briefdescription>
+<para>Conta o numero de pessoas recuperadas </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recuperados</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bom</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Recuperado.cs" line="104" column="20" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Recuperado.cs" bodystart="104" bodyend="123"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_classes_1_1_recuperados_1afd5d5293c1373ae465ca14b16dd7f680" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Classes.Recuperados.SaveCaso</definition>
+        <argsstring>(List&lt; Recuperados &gt; casos, string filename)</argsstring>
+        <name>SaveCaso</name>
+        <param>
+          <type>List&lt; <ref refid="class_classes_1_1_recuperados" kindref="compound">Recuperados</ref> &gt;</type>
+          <declname>casos</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+<para>Grava os dados inseridos em ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>casos</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Recuperado.cs" line="131" column="28" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Recuperado.cs" bodystart="131" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_classes_1_1_recuperados_1add55219eda604e371d6d5d4a739be695" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Classes.Recuperados.LoadRecuperados</definition>
+        <argsstring>(List&lt; Recuperados &gt; casos, string fileName)</argsstring>
+        <name>LoadRecuperados</name>
+        <param>
+          <type>List&lt; <ref refid="class_classes_1_1_recuperados" kindref="compound">Recuperados</ref> &gt;</type>
+          <declname>casos</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+<para>Carrega o ficheiro com os dados foram gravados. NÃO CONSEGUI IMPLEMENTAR!!! </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>casos</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Recuperado.cs" line="168" column="28" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Recuperado.cs" bodystart="168" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_classes_1_1_recuperados_1a0b56606fe276782c4e14cfbcb454c2d0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string Classes.Recuperados.LeFicheiro</definition>
+        <argsstring>(List&lt; Recuperados &gt; casos)</argsstring>
+        <name>LeFicheiro</name>
+        <param>
+          <type>List&lt; <ref refid="class_classes_1_1_recuperados" kindref="compound">Recuperados</ref> &gt;</type>
+          <declname>casos</declname>
+        </param>
+        <briefdescription>
+<para>Le os dados guardados do ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>casos</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Recuperado.cs" line="195" column="30" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Recuperado.cs" bodystart="195" bodyend="207"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe Recuperados.Define um recuperado </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Pessoa</label>
+        <link refid="class_classes_1_1_pessoa"/>
+      </node>
+      <node id="1">
+        <label>Classes.Recuperados</label>
+        <link refid="class_classes_1_1_recuperados"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Pessoa</label>
+        <link refid="class_classes_1_1_pessoa"/>
+      </node>
+      <node id="1">
+        <label>Classes.Recuperados</label>
+        <link refid="class_classes_1_1_recuperados"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Recuperado.cs" line="22" column="11" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Recuperado.cs" bodystart="23" bodyend="209"/>
+    <listofallmembers>
+      <member refid="class_classes_1_1_recuperados_1a7e04beda1c75642b05968f26bf181394" prot="public" virt="non-virtual"><scope>Classes::Recuperados</scope><name>ContaNaoRecuperados</name></member>
+      <member refid="class_classes_1_1_recuperados_1a9a58e24329c135b8fe0efe9c43a049bc" prot="public" virt="non-virtual"><scope>Classes::Recuperados</scope><name>ContaRecuperados</name></member>
+      <member refid="class_classes_1_1_pessoa_1a09462818b2113e43ea707dc59debeece" prot="public" virt="non-virtual"><scope>Classes::Recuperados</scope><name>Genero</name></member>
+      <member refid="class_classes_1_1_pessoa_1a0d67edbe093034866dc5e13968c68745" prot="protected" virt="non-virtual"><scope>Classes::Recuperados</scope><name>genero</name></member>
+      <member refid="class_classes_1_1_pessoa_1afa48fd413599e365d109c5604dd6acc9" prot="protected" virt="non-virtual"><scope>Classes::Recuperados</scope><name>idades</name></member>
+      <member refid="class_classes_1_1_pessoa_1a788f3f6afbc4be8139b4aa567fb4c66a" prot="public" virt="non-virtual"><scope>Classes::Recuperados</scope><name>Idades</name></member>
+      <member refid="class_classes_1_1_recuperados_1a0b56606fe276782c4e14cfbcb454c2d0" prot="public" virt="non-virtual"><scope>Classes::Recuperados</scope><name>LeFicheiro</name></member>
+      <member refid="class_classes_1_1_recuperados_1add55219eda604e371d6d5d4a739be695" prot="public" virt="non-virtual"><scope>Classes::Recuperados</scope><name>LoadRecuperados</name></member>
+      <member refid="class_classes_1_1_pessoa_1ae5b2f867267f034a4cd09cb8ab13be35" prot="protected" virt="non-virtual"><scope>Classes::Recuperados</scope><name>nome</name></member>
+      <member refid="class_classes_1_1_pessoa_1afd45a805503cba85a7136f40a2be4613" prot="public" virt="non-virtual"><scope>Classes::Recuperados</scope><name>Nome</name></member>
+      <member refid="class_classes_1_1_pessoa_1a173f1c530aa7992041f7f3999813403a" prot="public" virt="non-virtual"><scope>Classes::Recuperados</scope><name>Pessoa</name></member>
+      <member refid="class_classes_1_1_pessoa_1a3f70593f248a39ea79692c90b605c0f9" prot="public" virt="non-virtual"><scope>Classes::Recuperados</scope><name>Pessoa</name></member>
+      <member refid="class_classes_1_1_recuperados_1a94d0fb4944c0c48a1c948708f647c9ad" prot="protected" virt="non-virtual"><scope>Classes::Recuperados</scope><name>recuperado</name></member>
+      <member refid="class_classes_1_1_recuperados_1a686ccbcc8eb0a4ff910ece880d2f4129" prot="public" virt="non-virtual"><scope>Classes::Recuperados</scope><name>Recuperado</name></member>
+      <member refid="class_classes_1_1_recuperados_1af75f033a132d71d8e937845c71e42378" prot="public" virt="non-virtual"><scope>Classes::Recuperados</scope><name>Recuperados</name></member>
+      <member refid="class_classes_1_1_recuperados_1aed282ab0861acccd47ef47998dfec118" prot="public" virt="non-virtual"><scope>Classes::Recuperados</scope><name>Recuperados</name></member>
+      <member refid="class_classes_1_1_pessoa_1a2b3e90f6bcf96abb37968c2d4975208e" prot="public" virt="non-virtual"><scope>Classes::Recuperados</scope><name>Regiao</name></member>
+      <member refid="class_classes_1_1_pessoa_1abcb58ef447c08d0bfd8a1fb33c22041f" prot="protected" virt="non-virtual"><scope>Classes::Recuperados</scope><name>regiao</name></member>
+      <member refid="class_classes_1_1_recuperados_1afd5d5293c1373ae465ca14b16dd7f680" prot="public" virt="non-virtual"><scope>Classes::Recuperados</scope><name>SaveCaso</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

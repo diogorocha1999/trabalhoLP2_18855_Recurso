@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_classes_1_1_caso" kind="class" language="C#" prot="public">
+    <compoundname>Classes::Caso</compoundname>
+    <basecompoundref refid="class_classes_1_1_pessoa" prot="public" virt="non-virtual">Classes.Pessoa</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_classes_1_1_caso_1ae0c969c1f543a98dad80d75041f1cf1d" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Classes.Caso.doenteRisco</definition>
+        <argsstring></argsstring>
+        <name>doenteRisco</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Caso.cs" line="28" column="26" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Caso.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_classes_1_1_caso_1ae1ac57b5dc31e297563110fc146af263" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Classes.Caso.DDoenteRisco</definition>
+        <argsstring></argsstring>
+        <name>DDoenteRisco</name>
+        <briefdescription>
+<para>Manipula atributo doenteRisco </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Caso.cs" line="58" column="23" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Caso.cs" bodystart="59" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_classes_1_1_caso_1a0e06de8cf641655cf379824fefb416f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Classes.Caso.Caso</definition>
+        <argsstring>()</argsstring>
+        <name>Caso</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Caso.cs" line="35" column="16" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Caso.cs" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_classes_1_1_caso_1aaeacf54eb04c74e8c65e277715877fa8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Classes.Caso.Caso</definition>
+        <argsstring>(string nNome, string rRegiao, int iIdade, string gGenero, string dDoenteRisco)</argsstring>
+        <name>Caso</name>
+        <param>
+          <type>string</type>
+          <declname>nNome</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>rRegiao</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iIdade</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>gGenero</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>dDoenteRisco</declname>
+        </param>
+        <briefdescription>
+<para>Construtor com dados do exterior </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rRegiao</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>iIdade</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gGenero</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dDoenteRisco</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Caso.cs" line="46" column="16" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Caso.cs" bodystart="46" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe caso.Define um caso </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Classes.Caso</label>
+        <link refid="class_classes_1_1_caso"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Pessoa</label>
+        <link refid="class_classes_1_1_pessoa"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Classes.Caso</label>
+        <link refid="class_classes_1_1_caso"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Pessoa</label>
+        <link refid="class_classes_1_1_pessoa"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Caso.cs" line="24" column="11" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/Caso.cs" bodystart="25" bodyend="322"/>
+    <listofallmembers>
+      <member refid="class_classes_1_1_caso_1a0e06de8cf641655cf379824fefb416f3" prot="public" virt="non-virtual"><scope>Classes::Caso</scope><name>Caso</name></member>
+      <member refid="class_classes_1_1_caso_1aaeacf54eb04c74e8c65e277715877fa8" prot="public" virt="non-virtual"><scope>Classes::Caso</scope><name>Caso</name></member>
+      <member refid="class_classes_1_1_caso_1ae1ac57b5dc31e297563110fc146af263" prot="public" virt="non-virtual"><scope>Classes::Caso</scope><name>DDoenteRisco</name></member>
+      <member refid="class_classes_1_1_caso_1ae0c969c1f543a98dad80d75041f1cf1d" prot="protected" virt="non-virtual"><scope>Classes::Caso</scope><name>doenteRisco</name></member>
+      <member refid="class_classes_1_1_pessoa_1a09462818b2113e43ea707dc59debeece" prot="public" virt="non-virtual"><scope>Classes::Caso</scope><name>Genero</name></member>
+      <member refid="class_classes_1_1_pessoa_1a0d67edbe093034866dc5e13968c68745" prot="protected" virt="non-virtual"><scope>Classes::Caso</scope><name>genero</name></member>
+      <member refid="class_classes_1_1_pessoa_1a788f3f6afbc4be8139b4aa567fb4c66a" prot="public" virt="non-virtual"><scope>Classes::Caso</scope><name>Idades</name></member>
+      <member refid="class_classes_1_1_pessoa_1afa48fd413599e365d109c5604dd6acc9" prot="protected" virt="non-virtual"><scope>Classes::Caso</scope><name>idades</name></member>
+      <member refid="class_classes_1_1_pessoa_1afd45a805503cba85a7136f40a2be4613" prot="public" virt="non-virtual"><scope>Classes::Caso</scope><name>Nome</name></member>
+      <member refid="class_classes_1_1_pessoa_1ae5b2f867267f034a4cd09cb8ab13be35" prot="protected" virt="non-virtual"><scope>Classes::Caso</scope><name>nome</name></member>
+      <member refid="class_classes_1_1_pessoa_1a173f1c530aa7992041f7f3999813403a" prot="public" virt="non-virtual"><scope>Classes::Caso</scope><name>Pessoa</name></member>
+      <member refid="class_classes_1_1_pessoa_1a3f70593f248a39ea79692c90b605c0f9" prot="public" virt="non-virtual"><scope>Classes::Caso</scope><name>Pessoa</name></member>
+      <member refid="class_classes_1_1_pessoa_1abcb58ef447c08d0bfd8a1fb33c22041f" prot="protected" virt="non-virtual"><scope>Classes::Caso</scope><name>regiao</name></member>
+      <member refid="class_classes_1_1_pessoa_1a2b3e90f6bcf96abb37968c2d4975208e" prot="public" virt="non-virtual"><scope>Classes::Caso</scope><name>Regiao</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

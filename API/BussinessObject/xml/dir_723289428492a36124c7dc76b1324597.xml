@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_723289428492a36124c7dc76b1324597" kind="dir">
+    <compoundname>C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes</compoundname>
+    <innerfile refid="_caso_8cs">Caso.cs</innerfile>
+    <innerfile refid="_obito_8cs">Obito.cs</innerfile>
+    <innerfile refid="_pessoa_8cs">Pessoa.cs</innerfile>
+    <innerfile refid="_recuperado_8cs">Recuperado.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/DgsValidacoes/"/>
+  </compounddef>
+</doxygen>

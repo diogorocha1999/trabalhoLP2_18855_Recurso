@@ -1,0 +1,199 @@
+.TH "Dados.CasosDL" 3 "Fri Jun 26 2020" "Dados" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Dados.CasosDL \- Classe CasosDL\&.Trabalha com os dados da classe Caso  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Static Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "static List< Caso > \fBGetAllCases\fP ()"
+.br
+.RI "Retorna todos os dados inseridos na lista Caso\&. "
+.ti -1c
+.RI "static int \fBConsultaRegiao\fP (string pRegiao)"
+.br
+.RI "Consulta casos por região e conta o numero de casos para essa região\&. "
+.ti -1c
+.RI "static int \fBContaRisco\fP (string semRisco)"
+.br
+.RI "Conta o numero de casos com risco "
+.ti -1c
+.RI "static int \fBMaiorIdade\fP ()"
+.br
+.RI "Indica a maior idade infetada "
+.ti -1c
+.RI "static int \fBMediaIdades\fP ()"
+.br
+.RI "Faz a média de idades dos casos registados\&. "
+.ti -1c
+.RI "static bool \fBInsertCase\fP (Caso c)"
+.br
+.RI "Insere uma pessoa(caso), caso os parametros sejam verdade\&. "
+.ti -1c
+.RI "static bool \fBSaveCaso\fP (string filename)"
+.br
+.RI "Grava os dados inseridos em ficheiro\&. "
+.ti -1c
+.RI "static bool \fBLoadCasos\fP (string fileName)"
+.br
+.RI "Carrega o ficheiro com os dados foram gravados\&. NÃO CONSEGUI IMPLEMENTAR!!! "
+.ti -1c
+.RI "static string \fBFormataDados\fP ()"
+.br
+.RI "Le os dados guardados do ficheiro\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Classe CasosDL\&.Trabalha com os dados da classe Caso 
+
+
+.SH "Member Function Documentation"
+.PP 
+.SS "static int Dados\&.CasosDL\&.ConsultaRegiao (string pRegiao)\fC [static]\fP"
+
+.PP
+Consulta casos por região e conta o numero de casos para essa região\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcasos\fP 
+.br
+\fIpRegiao\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.SS "static int Dados\&.CasosDL\&.ContaRisco (string semRisco)\fC [static]\fP"
+
+.PP
+Conta o numero de casos com risco 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcasos\fP 
+.br
+\fIsemRisco\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.SS "static string Dados\&.CasosDL\&.FormataDados ()\fC [static]\fP"
+
+.PP
+Le os dados guardados do ficheiro\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcasos\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.SS "static List<Caso> Dados\&.CasosDL\&.GetAllCases ()\fC [static]\fP"
+
+.PP
+Retorna todos os dados inseridos na lista Caso\&. 
+.PP
+\fBReturns\fP
+.RS 4
+
+.RE
+.PP
+
+.SS "static bool Dados\&.CasosDL\&.InsertCase (Caso c)\fC [static]\fP"
+
+.PP
+Insere uma pessoa(caso), caso os parametros sejam verdade\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIc\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.SS "static bool Dados\&.CasosDL\&.LoadCasos (string fileName)\fC [static]\fP"
+
+.PP
+Carrega o ficheiro com os dados foram gravados\&. NÃO CONSEGUI IMPLEMENTAR!!! 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcasos\fP 
+.br
+\fIfileName\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.SS "static int Dados\&.CasosDL\&.MaiorIdade ()\fC [static]\fP"
+
+.PP
+Indica a maior idade infetada 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcasos\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.SS "static int Dados\&.CasosDL\&.MediaIdades ()\fC [static]\fP"
+
+.PP
+Faz a média de idades dos casos registados\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcasos\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+.SS "static bool Dados\&.CasosDL\&.SaveCaso (string filename)\fC [static]\fP"
+
+.PP
+Grava os dados inseridos em ficheiro\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIcasos\fP 
+.br
+\fIfilename\fP 
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Dados from the source code\&.

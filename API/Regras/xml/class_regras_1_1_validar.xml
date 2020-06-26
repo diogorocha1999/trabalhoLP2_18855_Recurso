@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_regras_1_1_validar" kind="class" language="C#" prot="public">
+    <compoundname>Regras::Validar</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_regras_1_1_validar_1a20a56654e1e87eaa8ea409ead1f2bd32" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Regras.Validar.InsertNewCase</definition>
+        <argsstring>(Caso c, int perfil)</argsstring>
+        <name>InsertNewCase</name>
+        <param>
+          <type>Caso</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>perfil</declname>
+        </param>
+        <briefdescription>
+<para>Insere um novo caso. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>c</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>perfil</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Regras/Validar.cs" line="27" column="28" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Regras/Validar.cs" bodystart="27" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_regras_1_1_validar_1a05bce8a2ad13ecf7ee2367db030c3bf7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Regras.Validar.InsertNewRecover</definition>
+        <argsstring>(Recuperados x, int perfil)</argsstring>
+        <name>InsertNewRecover</name>
+        <param>
+          <type>Recuperados</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>perfil</declname>
+        </param>
+        <briefdescription>
+<para>Insere um novo recuperado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>perfil</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Regras/Validar.cs" line="39" column="28" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Regras/Validar.cs" bodystart="39" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe <ref refid="class_regras_1_1_validar" kindref="compound">Validar</ref>. Aplica regras de acordo com os dados recebidos da biblioteca Dados e Classes. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Regras/Validar.cs" line="18" column="11" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Regras/Validar.cs" bodystart="19" bodyend="114"/>
+    <listofallmembers>
+      <member refid="class_regras_1_1_validar_1a20a56654e1e87eaa8ea409ead1f2bd32" prot="public" virt="non-virtual"><scope>Regras::Validar</scope><name>InsertNewCase</name></member>
+      <member refid="class_regras_1_1_validar_1a05bce8a2ad13ecf7ee2367db030c3bf7" prot="public" virt="non-virtual"><scope>Regras::Validar</scope><name>InsertNewRecover</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

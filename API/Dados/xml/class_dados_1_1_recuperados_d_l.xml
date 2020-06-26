@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_dados_1_1_recuperados_d_l" kind="class" language="C#" prot="public">
+    <compoundname>Dados::RecuperadosDL</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_dados_1_1_recuperados_d_l_1a916814c9408a33ce4a2ac793b179702c" prot="private" static="yes" mutable="no">
+        <type>List&lt; Recuperados &gt;</type>
+        <definition>List&lt;Recuperados&gt; Dados.RecuperadosDL.doentesRecuperados</definition>
+        <argsstring></argsstring>
+        <name>doentesRecuperados</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/RecuperadosDL.cs" line="25" column="21" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/RecuperadosDL.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_dados_1_1_recuperados_d_l_1aacc6582dab5e31ce34d5c1c549ce9d38" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Dados.RecuperadosDL.RecuperadosDL</definition>
+        <argsstring>()</argsstring>
+        <name>RecuperadosDL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/RecuperadosDL.cs" line="29" column="16" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/RecuperadosDL.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_dados_1_1_recuperados_d_l_1a993228959b645be8e1201533b6708026" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.RecuperadosDL.InsertRecover</definition>
+        <argsstring>(Recuperados x)</argsstring>
+        <name>InsertRecover</name>
+        <param>
+          <type>Recuperados</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Insere um recuperado caso seja verdade. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/RecuperadosDL.cs" line="42" column="28" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/RecuperadosDL.cs" bodystart="42" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_recuperados_d_l_1a1cd1b9753a810c5f6b653e387ebea822" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; Recuperados &gt;</type>
+        <definition>static List&lt;Recuperados&gt; Dados.RecuperadosDL.GetAllRecovers</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllRecovers</name>
+        <briefdescription>
+<para>Retorna os dados inseridos na lista de recuperados </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/RecuperadosDL.cs" line="56" column="28" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/RecuperadosDL.cs" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_recuperados_d_l_1a3bc0680b8e630b5acd728695cf473a27" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Dados.RecuperadosDL.ContaNaoRecuperados</definition>
+        <argsstring>(string mau)</argsstring>
+        <name>ContaNaoRecuperados</name>
+        <param>
+          <type>string</type>
+          <declname>mau</declname>
+        </param>
+        <briefdescription>
+<para>Conta o numero de pessoas nao recuperadas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recuperados</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mau</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/RecuperadosDL.cs" line="67" column="27" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/RecuperadosDL.cs" bodystart="67" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_recuperados_d_l_1a613b9af62db51b61ec7ed3f215092e5b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Dados.RecuperadosDL.ContaRecuperados</definition>
+        <argsstring>(string bom)</argsstring>
+        <name>ContaRecuperados</name>
+        <param>
+          <type>string</type>
+          <declname>bom</declname>
+        </param>
+        <briefdescription>
+<para>Conta o numero de pessoas recuperadas </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recuperados</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bom</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/RecuperadosDL.cs" line="93" column="27" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/RecuperadosDL.cs" bodystart="93" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_recuperados_d_l_1ac63b24c2a0c106143d4d319175dc6735" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.RecuperadosDL.SaveCaso</definition>
+        <argsstring>(string filename)</argsstring>
+        <name>SaveCaso</name>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+<para>Grava os dados inseridos em ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>casos</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/RecuperadosDL.cs" line="120" column="28" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/RecuperadosDL.cs" bodystart="120" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_recuperados_d_l_1aad846067e6154aa3373c9cf889d3a2d8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Dados.RecuperadosDL.LoadRecuperados</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>LoadRecuperados</name>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+<para>Carrega o ficheiro com os dados foram gravados. NÃO CONSEGUI IMPLEMENTAR!!! </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>casos</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fileName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/RecuperadosDL.cs" line="147" column="28" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/RecuperadosDL.cs" bodystart="147" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_dados_1_1_recuperados_d_l_1afee585ed179580e7aa62d8cfd1e77a7b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string Dados.RecuperadosDL.FormataDadosR</definition>
+        <argsstring>()</argsstring>
+        <name>FormataDadosR</name>
+        <briefdescription>
+<para>Le os dados guardados do ficheiro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>casos</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/RecuperadosDL.cs" line="173" column="30" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/RecuperadosDL.cs" bodystart="173" bodyend="185"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Classe RecuperadosDL.Trabalha com os dados da classe Recuperado. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/RecuperadosDL.cs" line="22" column="11" bodyfile="C:/Users/diogo/Desktop/trabalhoLP2_18855_Fase3-master/trabalhoLP2_18855_Fase3-master/DGS2/Dados/RecuperadosDL.cs" bodystart="23" bodyend="188"/>
+    <listofallmembers>
+      <member refid="class_dados_1_1_recuperados_d_l_1a3bc0680b8e630b5acd728695cf473a27" prot="public" virt="non-virtual"><scope>Dados::RecuperadosDL</scope><name>ContaNaoRecuperados</name></member>
+      <member refid="class_dados_1_1_recuperados_d_l_1a613b9af62db51b61ec7ed3f215092e5b" prot="public" virt="non-virtual"><scope>Dados::RecuperadosDL</scope><name>ContaRecuperados</name></member>
+      <member refid="class_dados_1_1_recuperados_d_l_1a916814c9408a33ce4a2ac793b179702c" prot="private" virt="non-virtual"><scope>Dados::RecuperadosDL</scope><name>doentesRecuperados</name></member>
+      <member refid="class_dados_1_1_recuperados_d_l_1afee585ed179580e7aa62d8cfd1e77a7b" prot="public" virt="non-virtual"><scope>Dados::RecuperadosDL</scope><name>FormataDadosR</name></member>
+      <member refid="class_dados_1_1_recuperados_d_l_1a1cd1b9753a810c5f6b653e387ebea822" prot="public" virt="non-virtual"><scope>Dados::RecuperadosDL</scope><name>GetAllRecovers</name></member>
+      <member refid="class_dados_1_1_recuperados_d_l_1a993228959b645be8e1201533b6708026" prot="public" virt="non-virtual"><scope>Dados::RecuperadosDL</scope><name>InsertRecover</name></member>
+      <member refid="class_dados_1_1_recuperados_d_l_1aad846067e6154aa3373c9cf889d3a2d8" prot="public" virt="non-virtual"><scope>Dados::RecuperadosDL</scope><name>LoadRecuperados</name></member>
+      <member refid="class_dados_1_1_recuperados_d_l_1aacc6582dab5e31ce34d5c1c549ce9d38" prot="private" virt="non-virtual"><scope>Dados::RecuperadosDL</scope><name>RecuperadosDL</name></member>
+      <member refid="class_dados_1_1_recuperados_d_l_1ac63b24c2a0c106143d4d319175dc6735" prot="public" virt="non-virtual"><scope>Dados::RecuperadosDL</scope><name>SaveCaso</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
